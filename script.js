@@ -14,9 +14,8 @@ function increment() {
   countEl.innerText = count;
 }
 
-let resetCount = 0;
 function reset () {
-  resetCount = 0;
+  count = 0;
   
-  countEl.innerText = resetCount;
+  countEl.innerText = count;
 }
