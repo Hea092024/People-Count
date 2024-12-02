@@ -47,3 +47,6 @@ button {
     background: darkgreen;
 }
 
+#resetButton {
+    background: darkred;
+}

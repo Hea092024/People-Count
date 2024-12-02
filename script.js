@@ -10,6 +10,13 @@ console.log(countEl);
 let count = 0;
 
 function increment() {
-  count = count + 1;
+  count++
   countEl.innerText = count;
+}
+
+let resetCount = 0;
+function reset () {
+  resetCount = 0;
+  
+  countEl.innerText = resetCount;
 }
