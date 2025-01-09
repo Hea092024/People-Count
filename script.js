@@ -14,10 +14,6 @@ function increment() {
   countEl.textContent = count;
 }
 
-// function save() {
-//   console.log(count);
-// }
-
 function reset () {
   count = 0;
   
