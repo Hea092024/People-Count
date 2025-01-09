@@ -16,14 +16,16 @@ function increment() {
   countEl.textContent = count;
 }
 
-function reset () {
+function reset() {
   count = 0;
-  
   countEl.textContent = count;
 }
 
-function save () {
-saveCount = count + " - ";
-saveEl.textContent += saveCount
+function save() {
+  saveCount = count + " - ";
+  saveEl.textContent += saveCount;
 }
 
+function resetSavedText() {
+  saveEl.textContent = "Previous Entires";
+}
