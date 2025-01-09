@@ -9,9 +9,9 @@ let count = 0;
 
 // increment adds a count
 function increment() {
-  // count++
-  count = count + 1;
-  countEl.innerText = count;
+  count++;
+  // count = count + 1;
+  countEl.textContent = count;
 }
 
 // function save() {
@@ -22,6 +22,6 @@ function increment() {
 function reset () {
   count = 0;
   
-  countEl.innerText = count;
+  countEl.textContent = count;
 }
 
