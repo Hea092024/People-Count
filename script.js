@@ -21,10 +21,8 @@ function reset () {
 }
 
 let saveEl = document.getElementById("save-el");
-
 function save () {
-  
-let saveCount = count + " - ";
+saveCount = count + " - ";
 saveEl.textContent += saveCount
 }
 
