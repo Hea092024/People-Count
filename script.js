@@ -4,13 +4,13 @@
 
 // camelCase
 let countEl = document.getElementById("count-el");
-
-console.log(countEl);
-
 let count = 0;
+// console.log(countEl);
+
 
 function increment() {
-  count++
+  // count++
+  count = count + 1;
   countEl.innerText = count;
 }
 
@@ -19,3 +19,4 @@ function reset () {
   
   countEl.innerText = count;
 }
+
