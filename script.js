@@ -5,6 +5,8 @@
 // camelCase
 let countEl = document.getElementById("count-el");
 let count = 0;
+let saveEl = document.getElementById("save-el");
+let resetSave = document.getElementById("resetSave");
 // console.log(countEl);
 
 // increment adds a count
@@ -20,7 +22,6 @@ function reset () {
   countEl.textContent = count;
 }
 
-let saveEl = document.getElementById("save-el");
 function save () {
 saveCount = count + " - ";
 saveEl.textContent += saveCount
