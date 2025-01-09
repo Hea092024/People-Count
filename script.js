@@ -18,10 +18,17 @@ function increment() {
 //   console.log(count);
 // }
 
-
 function reset () {
   count = 0;
   
   countEl.textContent = count;
+}
+
+let saveEl = document.getElementById("save-el");
+
+function save () {
+  
+let saveCount = count + " - ";
+saveEl.textContent += saveCount
 }
 
