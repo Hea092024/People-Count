@@ -22,10 +22,14 @@ function reset() {
 }
 
 function save() {
-  saveCount = count + " - ";
-  saveEl.textContent += saveCount;
+  let saveCount = count + " - ";
+  if (saveEl.textContent === "") {
+    saveEl.textContent = saveCount;
+  } else {
+    saveEl.textContent += saveCount;
+  }
 }
 
 function resetSavedText() {
-  saveEl.textContent = "Previous Entires";
+  saveEl.textContent = "Previous Entires : ";
 }
