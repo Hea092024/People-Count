@@ -48,6 +48,14 @@ button {
     box-shadow: 1px 1px 1px black;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
 #increment-btn {
     background: #673AB7;
 }
