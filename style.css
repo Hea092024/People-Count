@@ -9,6 +9,7 @@ html,body {
     text-align: center;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 
@@ -93,4 +94,21 @@ button:active {
 
 #resetSave {
     background: darkred;
+}
+
+@media (max-width: 768px) {
+
+body {
+    overflow: hidden;
+}
+
+    /* .button-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .increment-decrement, .reset-buttons {
+        align-items: center;
+    } */
 }
