@@ -78,6 +78,7 @@ button:active {
 
 #save-btn {
     background: darkgreen;
+    align-self: center;
 }
 
 #resetButton {
