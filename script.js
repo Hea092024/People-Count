@@ -16,6 +16,12 @@ function increment() {
   countEl.textContent = count;
 }
 
+function decrement() {
+  if (count > 0){ 
+    count --;}
+  countEl.textContent = count ;
+}
+
 function reset() {
   count = 0;
   countEl.textContent = count;
