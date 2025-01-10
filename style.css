@@ -54,6 +54,12 @@ button {
     gap: 10px;
 }
 
+.increment-decrement {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 button:hover {
     cursor: pointer;
 }
