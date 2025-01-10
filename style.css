@@ -60,6 +60,12 @@ button {
     gap: 5px;
 }
 
+.reset-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 button:hover {
     cursor: pointer;
 }
