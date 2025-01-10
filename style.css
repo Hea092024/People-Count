@@ -60,6 +60,10 @@ button:active {
     background: #673AB7;
 }
 
+#decrement-btn {
+    background: #E91E63;
+}
+
 #save-btn {
     background: darkgreen;
 }
