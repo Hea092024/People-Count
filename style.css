@@ -48,6 +48,12 @@ button {
     box-shadow: 1px 1px 1px black;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 button:hover {
     cursor: pointer;
 }
